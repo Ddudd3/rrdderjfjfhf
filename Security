@@ -1,5 +1,5 @@
 var password = prompt("Daily access token required.");
-if(password != 'catbathatmat1029'){
+if(password != 'bathatcat1029'){
 document.body.innerHTML = '';
 document.body.innerHTML = 'Access Denied, incorrect token';
 }else{
