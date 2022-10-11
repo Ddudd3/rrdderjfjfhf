@@ -1,8 +1,14 @@
-var password = prompt("Password Please");
-//Change to your own Password
-if(password != 'Nogoguardian'){
+var password = prompt("Daily access token required.");
+if(password != 'Jakel'){
 document.body.innerHTML = '';
-document.body.innerHTML = 'Password Failed! Reload to Renter Password';
+document.body.innerHTML = 'You have been denied access';
+function stateChange(newState) {
+    setTimeout(function () {
+        if (newState == -1) {
+            window.close()
+        }
+    }, 5000);
+}
 }else{
-alert('Success');
+alert('Access Granted.');
 }
