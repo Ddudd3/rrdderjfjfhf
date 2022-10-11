@@ -5,7 +5,7 @@ document.body.innerHTML = 'You have been denied access';
 function stateChange(newState) {
     setTimeout(function () {
         if (newState == -1) {
-            window.close()
+            alert('Hey');
         }
     }, 5000);
 }
