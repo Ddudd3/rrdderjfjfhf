@@ -2,9 +2,7 @@ var password = prompt("Daily access token required.");
 if(password != 'Jakel'){
 document.body.innerHTML = '';
 document.body.innerHTML = 'You have been denied access';
-alert('before');
-wait(7000);  //7 seconds in milliseconds
-alert('after');
+window.close();
 }else{
 alert('Access Granted.');
 }
