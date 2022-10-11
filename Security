@@ -3,5 +3,5 @@ if(password != 'Jakel'){
 document.body.innerHTML = '';
 document.body.innerHTML = 'Access Denied, incorrect token';
 }else{
-alert('1/2');
+alert('Access Granted.');
 }
