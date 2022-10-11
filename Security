@@ -5,8 +5,4 @@ document.body.innerHTML = '';
 document.body.innerHTML = 'Access Denied, incorrect token';
 }else{
 alert('1/2');
-if password2 != 'Schoolsucks'){
-alert('2/2, access Granted');
-}else{
-}
 }
