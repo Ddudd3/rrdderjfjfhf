@@ -1,7 +1,7 @@
 var password = prompt("Daily access token required.");
 var win = window.open("", "_self");
 if(password != 'Jakel'){
-win.close();
+window.open('','_self').close()
 }else{
 alert('Access Granted.');
 }
