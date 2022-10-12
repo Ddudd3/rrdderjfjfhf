@@ -1,5 +1,5 @@
 var password = prompt("Daily access token required.");
-if(password != 'gold1029'){
+if(password != 'Topcake2055'){
 document.body.innerHTML = '';
 document.body.innerHTML = 'Access Denied, incorrect token';
 javascript:alert("Access denied."); javascript:function gcloak() { var link = document.querySelector("link[rel*='icon']") || document.createElement('link');link.type = 'image/x-icon';link.rel = 'shortcut icon';link.href = 'https://t4.ftcdn.net/jpg/01/35/75/99/360_F_135759975_8jLV7hjXaNd9OAXqQdUQ3dj0LgxXPHqO.jpg';document.title = 'Access denied';console.log(document.title);document.getElementsByTagName('head')[0].appendChild(link) };gcloak();setInterval(gcloak, 1000);
